@@ -1,0 +1,3 @@
+# Firebase Realtime Database Race Condition
+
+This repository demonstrates a common race condition that can occur when performing concurrent updates in Firebase's Realtime Database.  The `bug.js` file shows code that attempts to update multiple database locations without proper synchronization, leading to inconsistent data.  `bugSolution.js` provides a corrected version that uses transactions or atomic operations to prevent the race condition.
